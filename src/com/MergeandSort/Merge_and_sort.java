@@ -1,6 +1,7 @@
 package com.MergeandSort;
 
 import java.lang.reflect.Array;
+import java.util.Arrays;
 
 public class Merge_and_sort {
     private int[] arr1;
@@ -88,13 +89,7 @@ public class Merge_and_sort {
 
     public void sortarry(){
         arr4=mergearray(arr4);
-        for (int i = 0; i < arr4.length; i++) {
-            System.out.print(arr4[i]);
-            System.out.print(" ");
-
-        }
-
-        System.out.println();
+        System.out.println(Arrays.toString(arr4));
 
 
         for (int i = 0; i <arr4.length; i++) {
@@ -109,11 +104,9 @@ public class Merge_and_sort {
 
 
         }
-        for (int i = 0; i < arr4.length; i++) {
-            System.out.print(arr4[i]);
-            System.out.print(" ");
 
-        }
+        System.out.println(Arrays.toString(arr4));
+
     }
 
 
